@@ -1,0 +1,177 @@
+* {
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    color: #5A5655;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+nav span {
+    color: gray;
+    margin-left: 1%;
+}
+
+nav img {
+    height: 32px;
+    width: auto;
+    margin-left: 24px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pageheader2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.pageheader2 p {
+    font-size: 24px;
+
+    margin-left: 16px;
+}
+
+#starthere {
+    display: flex;
+    background-color: lightgray;
+    justify-content: flex-start;
+}
+
+#starthere article {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#starthere img {
+    width: 60%;
+    height: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+#starthere h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10%;
+    color: #5A5655;
+}
+
+#starthere h3 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10%;
+    color: #767271;
+}
+
+#starthere button {
+    height: 8%;
+    width: 80%;
+    font-size: 1.25rem;
+    color: whitesmoke;
+    background-color: #5A5655;
+    margin-bottom: 15px;
+
+}
+
+#articles {
+    display: flex;
+
+}
+
+#keeppracticing,
+#news {
+    display: flex;
+    flex-direction: column;
+}
+
+#keeppracticing {
+    width: 60%;
+    height: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+#keeppracticing h2 {
+    font-size: 2rem;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+#keeppracticing p {
+    font-size: 1.125rem;
+    margin-bottom: 24px;
+}
+
+
+
+#news {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 32px 0px;
+
+}
+
+#news article {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    /* border: 1px solid #767271; */
+    border-bottom: 1px solid #767271;
+}
+
+#news article section {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.left {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+    margin-top: 0px;
+}
+
+.right {
+    width: 65%;
+    justify-content: center;
+
+}
+
+.right h2 {
+    font-size: 1.25rem;
+    font-weight: 900;
+    color: #5A5655;
+}
+
+.right h2,
+.right p {
+    margin-bottom: 8px;
+}
+
+#guest {
+    background-color: lightgrey;
+}
